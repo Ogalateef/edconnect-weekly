@@ -1,0 +1,114 @@
+<head>
+    <link rel="stylesheet" href="C:\Users\abdullateef\Documents\edconnect-weekly\app\public\project-explorer\css\bootstrap.min.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white mb-3" href="#">Project Explorer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <form name="searchForm" class="form-inline">
+        <input type="text" class="form-control" placeholder="Search Projects"/>
+        <button class="btn btn-outline-light ml-2" type="submit">Search</button>
+    </form>
+    <button class="btn text-white disabled mr-auto mb-3" type="submit">Submit</button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+        <li class="nav-item">
+            <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Signup</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Login</a>
+        </li>
+        </ul>
+</div>
+</nav>
+
+<div class="container form-group my-3 justify-content-centre w-50">
+
+    <div>
+        <h3>Project 1</h3>
+    </div>
+
+    <div class="container my-3 bg-light">
+        <div class="row align-items-start">
+          <div class="col">
+            Created by <br>
+            OgaLateef
+          </div>
+          <div class="col">
+            Date Created <br>
+            2020-08-30
+          </div>
+          <div class="col"> 
+            Last Updated <br>
+            2020-08-30
+          </div>
+          <div class="col d-flex my-2 justify-content-end">
+            <button type="submit" class="btn btn-primary justify-content-end">View Project</button>
+          </div>
+        </div>
+
+
+    </div>
+
+
+
+</div>
+    <form>
+        <div class="form-row mx-auto my-5 justify-content-centre w-50">
+
+            <div class="form-group col-md-6">
+                <div>
+                <h4>Edit Project</h4>
+            <label for="firstName">Project Name</label>
+            <input type="text" class="form-control" id="projectName" placeholder="Project 1">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="projectAbstract">Project Abstract</label>
+                <textarea class="form-control"   id="textarea" rows="3" placeholder="Project 1 is a very interesting project"> </textarea>
+            </div>
+        </div>
+            <div class="form-group col-md-6">
+                <h4>Manage Project Files</h4>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Click to open File Browser" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-secondary" type="button" id="button-addon2">Browse</button>
+                </div>
+                <div class="card" style="width:30rem;">
+                    <div class="card-header">
+                      Project Files
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                      <li class="list-group-item">No file upload yet</li>
+                    </ul>
+                    </div>
+            </div>
+
+            
+               
+
+
+            <div class="form-group col-md-6">
+                <label for="author">Author(s)</label>
+                <input type="text" class="form-control" id="author" placeholder="Odedoyin Olayinka">
+
+                <label for="tags">Tag(s)</label>
+                <input type="text" class="form-control" id="tags" placeholder="#web">
+
+
+            <button type="submit" class="btn btn-primary my-2">save</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+<footer class="container">
+    <div class="d-flex justify-content-end bg-light">
+      <p>Project Explorer 2020&copy; - <strong>Edconnect</strong></p>
+      </div>
+    </footer>
